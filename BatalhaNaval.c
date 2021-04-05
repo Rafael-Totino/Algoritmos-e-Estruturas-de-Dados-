@@ -119,11 +119,11 @@ void alteraCampoDeBatalha(int disparo[2], int fragata[2][4], int corveta[2][2], 
 {
   if(R==1)
   {
-    battlefield[disparo[0]][disparo[1]] = 1; //se as coordenadas do tiro forem a msms que a de um navio ou barco ent„o a posiÁ„o no tabuleiro mudar· para o valor de 1 (tiro certeiro).
+    battlefield[disparo[0]][disparo[1]] = 1; //se as coordenadas do tiro forem a msms que a de um navio ou barco ent√£o a posi√ß√£o no tabuleiro mudar√° para o valor de 1 (tiro certeiro).
   }
   else
   {
-    battlefield[disparo[0]][disparo[1]] = -1; //caso contr·rio, a posiÁ„o receber· o valor "-1"
+    battlefield[disparo[0]][disparo[1]] = -1; //caso contr√°rio, a posi√ß√£o receber√° o valor "-1"
   }
 
 }
